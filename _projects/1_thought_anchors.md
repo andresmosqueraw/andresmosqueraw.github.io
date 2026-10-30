@@ -8,7 +8,7 @@ category: research
 related_publications: true
 ---
 
-**Global South AI Safety Hackathon (Apart Research, 2026).** Winner, competing solo: 1 of 3 winning teams out of 217, with a USD 1,000 prize.
+**Global South AI Safety Hackathon (Apart Research, 2026).** Winner, competing solo among 217 teams, with a USD 1,000 prize.
 
 **Question.** When an extended-thinking model gives a stereotypical answer about a Latin American scenario, which steps of its chain of thought are responsible?
 
