@@ -21,8 +21,9 @@ cv:
         area: Systems and Computing Engineering
         studyType: M.Sc. (research)
         start_date: 2025-08
-        end_date: present
+        end_date: 2027-12
         highlights:
+          - Expected graduation December 2027.
           - Full scholarship (Beca Avanza) as a graduate research assistant.
           - "Focus: artificial intelligence, machine learning, natural language processing."
 
@@ -34,7 +35,7 @@ cv:
         end_date: 2026
         highlights:
           - Technical AI Safety course (alignment, mechanistic interpretability, evaluations, AI control, scalable oversight).
-          - Technical AI Safety Project course, mentored by Jess Bergs (UK AI Security Institute).
+          - Technical AI Safety Project, mentored by Jess Bergs (UK AI Security Institute). Extended my Apart hackathon project into a workshop paper submitted to GeBNLP @ ACL 2026.
           - Future of AI course.
 
       - institution: Uniempresarial, Chamber of Commerce of Bogotá

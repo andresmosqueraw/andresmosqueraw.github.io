@@ -10,4 +10,4 @@ related_publications: true
 
 Hybrid extractive and abstractive LLM pipelines (LangChain, LlamaIndex) and multi-agent architectures to summarize legal judgments, evaluated with ROUGE-2, ROUGE-L, and BLEU. It took 3rd place in the JUST-NLP 2025 Shared Task.
 
-{% cite mosquera2026onestep mosquera2026legal %}
+{% cite mosquera2026legal %}

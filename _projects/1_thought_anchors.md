@@ -16,4 +16,6 @@ related_publications: true
 
 **Output.** A reproducible pipeline, a paper, and an interactive demo, built in about 24 hours.
 
+**Extension.** During BlueDot Impact's Technical AI Safety Project, mentored by Jess Bergs (UK AI Security Institute), I extended it into a workshop paper submitted to GeBNLP @ ACL 2026: 1,708 chunk-level attributions across 3 models, 4 bias categories (gender, classism, racism, xenophobia), and 2 languages. The steps that matter most turn out to be general inference and context recall, not overt stereotype statements.
+
 {% cite mosquera2026thoughtanchors %}
