@@ -3,7 +3,7 @@ layout: page
 title: Process Mining × Interpretability
 description: M.Sc. research at Universidad de los Andes. Ongoing.
 year: "2025–now"
-importance: 2
+importance: 3
 category: research
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Machine learning for land registries
 description: GAN segmentation of cadastral images and LLM fine-tuning for Spanish names. Coplanin, 2023–2025.
 year: "2023–25"
-importance: 4
+importance: 5
 category: engineering
 ---
 

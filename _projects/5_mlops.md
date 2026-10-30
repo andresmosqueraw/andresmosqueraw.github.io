@@ -3,7 +3,7 @@ layout: page
 title: MLOps at retail scale
 description: Automated model deployment on 10M-record datasets. Kohl's, 2024.
 year: "2024"
-importance: 5
+importance: 6
 category: engineering
 ---
 

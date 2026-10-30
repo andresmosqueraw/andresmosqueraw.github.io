@@ -3,7 +3,7 @@ layout: page
 title: Legal Judgment Summarization
 description: LLM pipelines for Indian court judgments. 3rd place, JUST-NLP 2025 Shared Task.
 year: "2025"
-importance: 3
+importance: 4
 category: research
 related_publications: true
 ---
