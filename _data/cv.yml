@@ -1,0 +1,140 @@
+cv:
+  name: Andres Mosquera Hernandez
+  label: M.Sc. researcher · AI safety, interpretability, process mining
+  email: a.mosquerah2@uniandes.edu.co
+  location: Bogotá, Colombia
+  image: ""
+  summary: >-
+    M.Sc. researcher in Systems and Computing Engineering at Universidad de los Andes. I combine process mining with
+    machine learning and mechanistic interpretability, and I help build the AI safety community in Colombia.
+
+  social_networks:
+    - network: GitHub
+      username: andresmosqueraw
+    - network: LinkedIn
+      username: andresmosqueraw
+
+  sections:
+    Education:
+      - institution: Universidad de los Andes
+        location: Bogotá, Colombia
+        area: Systems and Computing Engineering
+        studyType: M.Sc. (research)
+        start_date: 2025-08
+        end_date: present
+        highlights:
+          - Full scholarship (Beca Avanza) as a graduate research assistant.
+          - "Focus: artificial intelligence, machine learning, natural language processing."
+
+      - institution: BlueDot Impact
+        location: Remote
+        area: AI safety
+        studyType: Courses
+        start_date: 2026
+        end_date: 2026
+        highlights:
+          - Technical AI Safety course (alignment, mechanistic interpretability, evaluations, AI control, scalable oversight).
+          - Technical AI Safety Project course.
+          - Future of AI course.
+
+      - institution: Uniempresarial, Chamber of Commerce of Bogotá
+        location: Bogotá, Colombia
+        area: Software Engineering
+        studyType: B.Sc., summa cum laude (GPA 4.6/5)
+        start_date: 2021-08
+        end_date: 2025-03
+        highlights:
+          - Ranked 1st in graduation class. 7x Best Course Programming Project.
+          - Highest Saber Pro score (national standardized exam) in the program.
+          - AI teaching assistant. AI research at the National University of Colombia (PhingPT, a model for the financial sector).
+
+    Experience:
+      - company: AI Safety Colombia
+        position: Facilitator, Technical AI Safety Seminar
+        location: Bogotá, Colombia
+        start_date: 2026-10
+        end_date: 2026-11
+        summary: Facilitating a 6-week technical AI safety seminar in Spanish, based on BlueDot Impact's curriculum.
+        highlights:
+          - Training safer models, evaluations, mechanistic interpretability, harm mitigation, and how to start contributing.
+
+      - company: Universidad de los Andes
+        position: Graduate Research Assistant
+        location: Bogotá, Colombia
+        start_date: 2025-08
+        end_date: present
+        highlights:
+          - Process mining with machine learning, reinforcement learning, and LLMs for predictive and prescriptive process analytics.
+          - Author and co-author of papers submitted to international conferences and journals.
+          - Poster evaluator for IEEE-affiliated academic events.
+
+      - company: Universidad del Rosario
+        position: Researcher
+        location: Bogotá, Colombia
+        start_date: 2025-06
+        end_date: 2025-07
+        highlights:
+          - Built AR environments in Unity for over 100 students to explore 3D bone models, saving USD 2,000 in 3D printing.
+
+      - company: Coplanin
+        position: Machine Learning Engineer, Full Stack and Android Engineer
+        location: Bogotá, Colombia (remote)
+        start_date: 2023-04
+        end_date: 2025-06
+        highlights:
+          - Pix2Pix GAN for cadastral image segmentation (0.87 IoU, 92% accuracy), cutting manual rework by 60%.
+          - Fine-tuned Gemma-2, Llama 3, Mistral, Phi-4, and Qwen2.5 to split 57,000 Spanish names (81%) and infer gender (95%).
+          - Airflow ETL for the Colombian Ministry of Environment (3x faster than manual). Android apps, one with 700 users.
+
+      - company: Kohl's
+        position: Machine Learning Ops Intern
+        location: Remote
+        start_date: 2024-08
+        end_date: 2024-10
+        highlights:
+          - Automated model deployment on 10M-record datasets, reducing deployment time by 73% (Kubernetes, Vertex AI, Airflow).
+
+      - company: Alpha Intelligence AI
+        position: Software Engineer Intern
+        location: Bogotá, Colombia
+        start_date: 2022-10
+        end_date: 2023-01
+
+      - company: Corparques
+        position: Software Engineer Intern
+        location: Bogotá, Colombia
+        start_date: 2022-05
+        end_date: 2022-07
+
+    Awards:
+      - title: Winner, Global South AI Safety Hackathon (Apart Research)
+        date: 2026
+        awarder: Apart Research
+        summary: 1 of 3 winning teams out of 217, competing solo. USD 1,000 prize.
+
+      - title: Speaker and poster presenter, International Symposium of Statistics
+        date: 2025
+        awarder: Pasto, Colombia
+        summary: Financial sentiment analysis with large language models (RAG, fine-tuning).
+
+      - title: 1st Place, AI Learning Tools Challenge
+        date: 2024
+        awarder: Scotiabank Colpatria
+        summary: Among 32 universities.
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, Bash, C/C++/C#, Java, JavaScript, TypeScript, SQL, Kotlin"
+      - name: AI/ML
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, scikit-learn, Hugging Face, LangChain, Pandas, NumPy, OpenCV"
+      - name: Cloud and ops
+        icon: fa-solid fa-server
+        keywords: "Docker, Kubernetes, AWS, Google Cloud, Azure, CI/CD, Git, Linux"
+
+    Languages:
+      - name: Spanish
+        summary: Native
+      - name: English
+        summary: Professional working proficiency (TOEFL iBT 77, B2)

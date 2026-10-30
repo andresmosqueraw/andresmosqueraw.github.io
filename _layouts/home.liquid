@@ -1,0 +1,345 @@
+---
+layout: default
+---
+{%- comment -%}
+  Personal home layout (local, not from al_folio_core).
+  Hero: original layered landscape with scroll parallax.
+{%- endcomment -%}
+<div class="am-home">
+  <!-- Hero -->
+  <section class="am-hero am-bleed" aria-label="Introduction">
+    <div class="am-layer am-layer--moon" data-speed="0.6" aria-hidden="true">
+      <svg viewBox="0 0 40 40"><path d="M26 4a16 16 0 1 0 10 28A13 13 0 0 1 26 4z" fill="#f6f1e8" /></svg>
+    </div>
+
+    <div class="am-layer am-layer--dune-far" data-speed="0.45" aria-hidden="true">
+      <svg viewBox="0 0 1440 260" preserveAspectRatio="none">
+        <path d="M0 150C280 80 640 52 980 104C1190 136 1340 116 1440 96V260H0Z" fill="#ece0c8" />
+      </svg>
+    </div>
+
+    <div class="am-layer am-layer--dune-near" data-speed="0.28" aria-hidden="true">
+      <svg viewBox="0 0 1440 300" preserveAspectRatio="xMidYMax slice">
+        <path d="M0 120C260 62 620 40 900 70C1150 96 1320 82 1440 62V300H0Z" fill="#c9502c" />
+        <path d="M0 150C300 96 640 80 920 104C1160 126 1330 112 1440 96V300H0Z" fill="#b8432c" opacity=".55" />
+        <!-- tree -->
+        <g transform="translate(700 6)">
+          <path d="M18 72c2-14 1-26-2-36h8c-2 10-2 22 0 36z" fill="#5b3a22" />
+          <ellipse cx="20" cy="30" rx="44" ry="16" fill="#6f9a45" />
+          <ellipse cx="2" cy="24" rx="22" ry="12" fill="#8fb35a" />
+          <ellipse cx="36" cy="22" rx="24" ry="12" fill="#86ad55" />
+          <ellipse cx="20" cy="16" rx="22" ry="11" fill="#9cc066" />
+        </g>
+        <!-- small walking figure -->
+        <g transform="translate(762 58)" fill="#1c2a4a">
+          <circle cx="3" cy="2" r="2.2" />
+          <rect x="1" y="4.5" width="4.2" height="8" rx="1.5" />
+          <rect x="1.2" y="12" width="1.5" height="6" />
+          <rect x="3.4" y="12" width="1.5" height="6" transform="rotate(12 4 12)" />
+        </g>
+      </svg>
+    </div>
+
+    <div class="am-layer am-layer--field" data-speed="0.08" aria-hidden="true">
+      <svg viewBox="0 0 1440 320" preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <pattern id="am-flowers" width="46" height="28" patternUnits="userSpaceOnUse">
+            <rect width="46" height="28" fill="#5d3a46" />
+            <circle cx="5" cy="6" r="3.6" fill="#d63a4a" />
+            <circle cx="17" cy="3" r="2.8" fill="#8e5aa8" />
+            <circle cx="28" cy="8" r="3.4" fill="#e0533f" />
+            <circle cx="40" cy="4" r="2.6" fill="#b2384f" />
+            <circle cx="11" cy="18" r="3" fill="#9d6bc0" />
+            <circle cx="23" cy="20" r="3.8" fill="#d63a4a" />
+            <circle cx="35" cy="17" r="2.6" fill="#c7a33a" />
+            <circle cx="44" cy="23" r="3.2" fill="#e0533f" />
+            <circle cx="2" cy="26" r="2.4" fill="#7f9a4a" />
+          </pattern>
+          <pattern id="am-flowers-2" width="37" height="23" patternUnits="userSpaceOnUse" patternTransform="rotate(-7) translate(11 5)">
+            <circle cx="6" cy="9" r="3.2" fill="#e0533f" />
+            <circle cx="21" cy="4" r="2.4" fill="#f0c3c9" />
+            <circle cx="30" cy="15" r="3.4" fill="#8e5aa8" />
+            <circle cx="14" cy="19" r="2" fill="#efd27a" />
+          </pattern>
+        </defs>
+        <path d="M0 70C220 40 520 30 780 46C1040 62 1260 52 1440 34V320H0Z" fill="url(#am-flowers)" />
+        <path d="M0 70C220 40 520 30 780 46C1040 62 1260 52 1440 34V320H0Z" fill="url(#am-flowers-2)" opacity=".75" />
+      </svg>
+    </div>
+
+    <div class="am-hero__copy" data-speed="0.35" data-fade>
+      <p class="am-eyebrow" style="color: rgba(246, 241, 232, 0.8)">Bogotá · Universidad de los Andes</p>
+      <h1 class="am-hero__title">
+        I'm Andres.<br>
+        I research <a href="{{ '/projects/' | relative_url }}">AI&nbsp;safety</a>.
+      </h1>
+      <p class="am-hero__lede">{{ page.lede }}</p>
+    </div>
+
+    <aside class="am-glass">
+      <p class="am-glass__title">M.Sc. researcher,<br>Universidad<br>de los Andes.</p>
+      <hr class="am-glass__rule">
+      <p class="am-glass__note">Process mining<br>× mechanistic<br>interpretability.</p>
+    </aside>
+
+    <a class="am-scroll" href="#now">Scroll to continue</a>
+  </section>
+
+  <!-- Now: widgets -->
+  <section id="now" class="am-section am-reveal">
+    <div class="am-section__head">
+      <h2>Now</h2>
+      <span class="am-eyebrow">What I'm working on</span>
+    </div>
+    <div class="am-widgets">
+      <div class="am-widget am-clock" aria-label="Local time in Bogotá">
+        <svg viewBox="0 0 140 140" id="am-clock">
+          <g id="am-ticks"></g>
+          <text x="70" y="44" text-anchor="middle" class="label">BOGOTÁ</text>
+          <line class="h" x1="70" y1="70" x2="70" y2="40" id="am-h" />
+          <line class="m" x1="70" y1="70" x2="70" y2="26" id="am-m" />
+          <line class="s" x1="70" y1="78" x2="70" y2="22" id="am-s" />
+          <circle cx="70" cy="70" r="3" fill="currentColor" />
+        </svg>
+      </div>
+
+      <div class="am-widget" aria-label="Calendar">
+        <div class="am-cal__day" id="am-cal-day"></div>
+        <div class="am-cal__num" id="am-cal-num"></div>
+        <div class="am-cal__grid" id="am-cal-grid"></div>
+      </div>
+
+      <div class="am-widget am-widget--wide" aria-label="Currently facilitating">
+        <div class="am-player">
+          <div class="am-player__art">AI Safety Colombia</div>
+          <div>
+            <div class="am-eyebrow" id="am-now-label">Now facilitating</div>
+            <div class="am-player__title">Technical AI Safety Seminar</div>
+            <div class="am-player__meta">AI Safety Colombia · BlueDot curriculum · 6 weeks</div>
+          </div>
+        </div>
+        <div class="am-player__bar"><span id="am-bar"></span></div>
+        <div class="am-player__times">
+          <span id="am-t0">Oct 19</span><span id="am-t1">Nov 29</span>
+        </div>
+      </div>
+
+      <div class="am-widget am-stat">
+        <span class="am-eyebrow">Apart Research hackathon</span>
+        <span class="am-stat__big">1 / 217</span>
+        <span class="am-stat__small">Winner, solo. Global South AI Safety Hackathon, 2026.</span>
+      </div>
+
+      <div class="am-widget am-stat">
+        <span class="am-eyebrow">BlueDot Impact</span>
+        <span class="am-stat__big">2</span>
+        <span class="am-stat__small">AI safety courses completed: Technical AI Safety and the project course.</span>
+      </div>
+
+      <div class="am-widget am-widget--wide am-stat">
+        <span class="am-eyebrow">Thesis</span>
+        <span class="am-stat__big" style="font-size: 2.1rem">Process mining × interpretability</span>
+        <span class="am-stat__small">What can event-log analysis tell us about the internal processes of language models?</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bio -->
+  <section class="am-section am-reveal">
+    <div class="am-section__head">
+      <h2>About</h2>
+      <span class="am-eyebrow">Bogotá, Colombia</span>
+    </div>
+    <div class="am-bio">
+      <p class="am-bio__lead">{{ page.bio_lead }}</p>
+      <div class="am-bio__body">{{ content }}</div>
+    </div>
+  </section>
+
+  <!-- Selected work -->
+  <section class="am-section am-reveal">
+    <div class="am-section__head">
+      <h2>Selected work</h2>
+      <a class="am-eyebrow" href="{{ '/projects/' | relative_url }}">All projects →</a>
+    </div>
+    <ul class="am-list">
+      {% assign work = site.projects | sort: 'importance' %}
+      {% for p in work %}
+        <li>
+          <a href="{{ p.url | relative_url }}">
+            <span class="am-list__title">{{ p.title }}</span>
+            <span class="am-list__meta">{{ p.year }}<br>{{ p.category }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <!-- Statement band -->
+  <section class="am-statement am-bleed am-reveal">
+    <p class="am-statement__big">Capable<br>isn't the same<br>as safe.</p>
+    <p class="am-statement__small">
+      I want to help make AI systems we can actually understand: open the model, trace the reasoning, and check it before
+      we trust it<sup>*</sup>.<br><br>
+      <span class="am-eyebrow" style="color: #a89a8d">* Interpretability, evaluations, and scalable oversight.</span>
+    </p>
+    <div class="am-window" aria-hidden="true"></div>
+  </section>
+
+  <!-- Dock -->
+  <div class="am-dock-wrap">
+    <nav class="am-dock" aria-label="Contact">
+      <a class="d-mark" href="{{ '/' | relative_url }}" title="Home">A</a>
+      <span class="sep"></span>
+      <a class="d-gh" href="https://github.com/andresmosqueraw" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a class="d-li" href="https://www.linkedin.com/in/andresmosqueraw/" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a class="d-mail" href="mailto:a.mosquerah2@uniandes.edu.co" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a class="d-pub" href="{{ '/publications/' | relative_url }}" title="Publications"><i class="fa-solid fa-book-open"></i></a>
+      <a class="d-cv" href="{{ '/cv/' | relative_url }}" title="CV"><i class="fa-solid fa-file-lines"></i></a>
+    </nav>
+  </div>
+
+  <!-- Honest note -->
+  <aside class="am-note">
+    <p class="am-note__title">A quick, honest note</p>
+    <p>
+      This site uses no cookies and no analytics. The only thing loaded from outside is the typography, from Google Fonts. The landscape
+      at the top is drawn in code.
+    </p>
+  </aside>
+</div>
+
+<script>
+  (function () {
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Parallax
+    var layers = [].slice.call(document.querySelectorAll('.am-hero [data-speed]'));
+    var hero = document.querySelector('.am-hero');
+    function onScroll() {
+      var y = window.scrollY;
+      var h = hero.offsetHeight;
+      if (y > h) return;
+      layers.forEach(function (el) {
+        el.style.transform = 'translate3d(0,' + y * parseFloat(el.dataset.speed) + 'px,0)';
+        if (el.hasAttribute('data-fade')) el.style.opacity = Math.max(0, 1 - y / (h * 0.6));
+      });
+    }
+    if (!reduce) {
+      var ticking = false;
+      window.addEventListener(
+        'scroll',
+        function () {
+          if (!ticking) {
+            requestAnimationFrame(function () {
+              onScroll();
+              ticking = false;
+            });
+            ticking = true;
+          }
+        },
+        { passive: true }
+      );
+    }
+
+    // Reveal
+    var io = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add('is-in');
+            io.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.12 }
+    );
+    document.querySelectorAll('.am-reveal').forEach(function (el) {
+      io.observe(el);
+    });
+
+    // Time in Bogotá
+    var TZ = 'America/Bogota';
+    function bogotaParts(d) {
+      var parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: TZ,
+        year: 'numeric',
+        month: 'numeric',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric',
+        hour12: false,
+        weekday: 'long',
+      }).formatToParts(d);
+      var o = {};
+      parts.forEach(function (p) {
+        o[p.type] = p.value;
+      });
+      return o;
+    }
+
+    // Clock
+    var ticks = document.getElementById('am-ticks');
+    for (var i = 0; i < 12; i++) {
+      var a = (i * Math.PI) / 6;
+      var r1 = i % 3 === 0 ? 50 : 54;
+      var l = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      l.setAttribute('class', 'tick');
+      l.setAttribute('x1', 70 + r1 * Math.sin(a));
+      l.setAttribute('y1', 70 - r1 * Math.cos(a));
+      l.setAttribute('x2', 70 + 60 * Math.sin(a));
+      l.setAttribute('y2', 70 - 60 * Math.cos(a));
+      ticks.appendChild(l);
+    }
+    function hand(id, deg) {
+      document.getElementById(id).setAttribute('transform', 'rotate(' + deg + ' 70 70)');
+    }
+    function tickClock() {
+      var p = bogotaParts(new Date());
+      var h = +p.hour % 12,
+        m = +p.minute,
+        s = +p.second;
+      hand('am-h', h * 30 + m * 0.5);
+      hand('am-m', m * 6 + s * 0.1);
+      hand('am-s', s * 6);
+    }
+    tickClock();
+    setInterval(tickClock, 1000);
+
+    // Calendar
+    var p = bogotaParts(new Date());
+    var yr = +p.year,
+      mo = +p.month - 1,
+      dy = +p.day;
+    document.getElementById('am-cal-day').textContent = p.weekday;
+    document.getElementById('am-cal-num').textContent = dy;
+    var grid = document.getElementById('am-cal-grid');
+    var html = ['S', 'M', 'T', 'W', 'T', 'F', 'S']
+      .map(function (d) {
+        return '<b>' + d + '</b>';
+      })
+      .join('');
+    var first = new Date(Date.UTC(yr, mo, 1)).getUTCDay();
+    var days = new Date(Date.UTC(yr, mo + 1, 0)).getUTCDate();
+    for (var k = 0; k < first; k++) html += '<span></span>';
+    for (var n = 1; n <= days; n++) html += '<span' + (n === dy ? ' class="today"' : '') + '>' + n + '</span>';
+    grid.innerHTML = html;
+
+    // Seminar progress (Oct 19 – Nov 29, 2026)
+    var start = Date.UTC(2026, 9, 19, 5),
+      end = Date.UTC(2026, 10, 30, 5),
+      now = Date.now();
+    var frac = Math.min(1, Math.max(0, (now - start) / (end - start)));
+    document.getElementById('am-bar').style.width = frac * 100 + '%';
+    if (now >= end) {
+      document.getElementById('am-now-label').textContent = 'Facilitated';
+      document.getElementById('am-t1').textContent = 'Completed Nov 29, 2026';
+    } else if (now >= start) {
+      var left = Math.ceil((end - now) / 86400000);
+      document.getElementById('am-t1').textContent = '-' + left + ' days';
+    } else {
+      document.getElementById('am-now-label').textContent = 'Up next';
+    }
+  })();
+</script>
