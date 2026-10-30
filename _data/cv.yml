@@ -55,7 +55,7 @@ cv:
         location: Bogotá, Colombia
         start_date: 2026-10
         end_date: 2026-11
-        summary: Facilitating a 6-week technical AI safety seminar in Spanish, based on BlueDot Impact's curriculum.
+        summary: Facilitating a 6-week technical AI safety seminar in Spanish for a cohort of 8 participants, based on BlueDot Impact's curriculum.
         highlights:
           - Training safer models, evaluations, mechanistic interpretability, harm mitigation, and how to start contributing.
 
